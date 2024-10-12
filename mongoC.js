@@ -10,5 +10,5 @@ try {
 } catch(e) {
   console.error(e);
 }
-let db = conn.db("integration_ninjas");
+let db = conn.db("mern_DB");
 export default db;
